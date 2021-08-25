@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.target>16</maven.compiler.target>
         <maven.compiler.source>16</maven.compiler.source>
-        <junit.version>5.7.1</junit.version>
+        <junit.version>5.7.2</junit.version>
     </properties>
 
     <dependencies>
@@ -22,6 +22,11 @@
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>4.4.3</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
